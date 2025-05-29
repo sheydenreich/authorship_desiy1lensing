@@ -35,7 +35,7 @@ The main input CSV files are generated automatically from the DESI members datab
 ### Author Lists
 Two text files define author categories:
 
-**`first_tier_authors.dat`**: Key contributors listed in specified order
+**`first_tier_authors.dat`**: Key contributors listed in specified order. Adapt this for your paper as needed.
 ```
 Sven Heydenreich
 Alexie Leauthaud
@@ -43,7 +43,7 @@ Chris Blake
 ...
 ```
 
-**`infrastructure_authors.dat`**: Y1 Lensing infrastructure authors (sorted alphabetically by last name)
+**`infrastructure_authors.dat`**: Y1 Lensing infrastructure authors. This should not need to be changed.
 ```
 Chris Blake
 Joseph DeRose
