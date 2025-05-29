@@ -9,10 +9,9 @@ This tool automates the generation of author lists and affiliations for DESI Y1 
 - **Fuzzy Matching**: Interactive matching for infrastructure authors when exact names don't match
 - **Multiple Output Formats**: 
   - Standard AASTeX format with author/affiliation blocks
-  - Numbered affiliation format with superscript references
+  - Numbered affiliation format with superscript references for manual author lists
   - CSV output for journal submission forms
 - **Email Integration**: Merges author emails from user database
-- **Affiliation Merging**: Automatically consolidates multiple affiliations for the same author
 
 ## Requirements
 
