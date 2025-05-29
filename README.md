@@ -1,6 +1,6 @@
 # Authorship Management Tool for DESI Y1 Lensing Papers
 
-This tool automates the generation of author lists and affiliations for DESI Y1 Lensing papers. It processes CSV files containing author information and generates properly formatted LaTeX output suitable for journal submissions.
+This tool automates the generation of author lists and affiliations for DESI Y1 Lensing papers. It processes CSV files containing author information and generates properly formatted LaTeX output suitable for journal submissions. Credit to [Johannes Ulf Lange](https://github.com/johannesulf) for a first version of this code.
 
 ## Features
 
