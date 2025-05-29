@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## Input Files
 
 ### CSV Author Data (Auto-generated)
-The main input CSV file is generated automatically from the DESI members database.
+The main input CSV files are generated automatically from the DESI members database and the PubDB page of the respective publication.
 
 ### Author Lists
 Two text files define author categories:
