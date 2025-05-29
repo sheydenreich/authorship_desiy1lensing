@@ -102,8 +102,6 @@ For ORCID links to work properly in your LaTeX document, include these packages 
 #### Standard AASTeX Format
 ```latex
 \documentclass{aastex631}
-\usepackage{hyperref}
-\usepackage{orcidlink}
 
 \begin{document}
 \input{output_authors.tex}
@@ -130,7 +128,7 @@ For ORCID links to work properly in your LaTeX document, include these packages 
 ### `output_authors.tex`
 Standard AASTeX format with `\author{}` and `\affiliation{}` commands:
 ```latex
-\orcidlink{0000-0000-0000-0000}\author[0000-0000-0000-0000]{John Doe}
+\author[0000-0000-0000-0000]{John Doe}
 \affiliation{University of Example}
 
 \author{Jane Smith}

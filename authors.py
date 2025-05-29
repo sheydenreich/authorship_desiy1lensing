@@ -323,10 +323,7 @@ def main():
             affls = row['Affiliations']
             
             # Build author line with optional ORCID link
-            author_line = ""
-            if not args.no_orcid_links and orcid != '':
-                author_line += r"\orcidlink{" + orcid + "}"
-            
+            author_line = ""            
             if orcid != '':
                 author_line += r"\author[" + orcid + "]{" + name + "}\n"
             else:
