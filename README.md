@@ -1,6 +1,6 @@
-# Authorship Management Tool for Academic Papers
+# Authorship Management Tool for DESI Y1 Lensing Papers
 
-This tool automates the generation of author lists and affiliations for academic papers, particularly designed for large collaborations. It processes CSV files containing author information and generates properly formatted LaTeX output suitable for journal submissions.
+This tool automates the generation of author lists and affiliations for DESI Y1 Lensing papers. It processes CSV files containing author information and generates properly formatted LaTeX output suitable for journal submissions.
 
 ## Features
 
@@ -31,12 +31,7 @@ pip install -r requirements.txt
 ## Input Files
 
 ### CSV Author Data (Auto-generated)
-The main input CSV file is generated automatically and contains columns:
-- `Authorname`: Full author name as it should appear in publication
-- `Firstname`: Author's first name
-- `Lastname`: Author's last name  
-- `Affiliation`: Author's institutional affiliation
-- `ORCID`: Author's ORCID identifier (optional)
+The main input CSV file is generated automatically from the DESI members database.
 
 ### Author Lists
 Two text files define author categories:
@@ -49,15 +44,13 @@ Chris Blake
 ...
 ```
 
-**`infrastructure_authors.dat`**: Infrastructure/collaboration authors (sorted alphabetically by last name)
+**`infrastructure_authors.dat`**: Y1 Lensing infrastructure authors (sorted alphabetically by last name)
 ```
 Chris Blake
 Joseph DeRose
 Ni Putu Audita Placida Emas
 ...
 ```
-
-**`Users.csv`** (optional): Email database with columns `Name` and `Email`
 
 ## Usage
 
